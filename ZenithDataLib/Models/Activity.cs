@@ -8,8 +8,8 @@ using System.ComponentModel.DataAnnotations;
 namespace ZenithDataLib.Models {
     public class Activity {
         [Key]
-        public int ActivityId;
-        public string ActivityDescription;
-        public DateTime CreationDate;
+        public int ActivityId { get; set; }
+        public string ActivityDescription { get; set; }
+        public DateTime CreationDate { get; set; }
     }
 }
